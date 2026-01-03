@@ -1,6 +1,6 @@
+import StockTable from "@/app/components/stock-table";
 import { fetch52WHStocks } from "@/lib/fetch52WHStocks";
 import { fetch52WLStocks } from "@/lib/fetch52WLStocks";
-import StockTable from "../components/stock-table";
 
 export default async function StocksPage() {
   const stocks52WL = await fetch52WLStocks();

@@ -1,4 +1,4 @@
-import StockCalc from "../components/stock-calc";
+import StockCalc from "@/app/components/stock-calc";
 
 export default function CalcPage() {
   return (

@@ -31,6 +31,10 @@ export default function Header() {
           <Link href="/stock-calculator" className={linkClass("/stock-calculator")}>
             Stock TP / SL Calc
           </Link>
+
+          <Link href="/risk-reward-calculator" className={linkClass("/risk-reward-calculator")}>
+            Risk Reward
+          </Link>
         </nav>
       </div>
     </header>
